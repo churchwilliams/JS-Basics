@@ -74,9 +74,10 @@ alert("The Total Number Was " + sumTotal + "!");
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //0, null, “”, NaN 
+  //0, null, “”, NaN, false, undefined
 
-
+ if (myVar) // this detects TRUTHINESS
+ if (!myVar) // this detects FALSINESS
 
 
 //Next Problem
